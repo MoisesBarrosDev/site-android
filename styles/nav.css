@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+@font-face {
+  font-family: Android;
+  src: url('../font/IDroid.otf') format('opentype');
+  font-weight: normal;
+}
+
+:root {
+  --cor01: #99A1CF;
+  --cor02: #9496A5;
+  --cor03: #8E9FFA;
+  --cor04: #595E7A;
+  --cor05: #2D3250;
+  --cor06: #171B33;
+
+  --fonte-padrao: Arial, Verdana, Heveltica, sans-serif;
+  --fonte-destaque: 'Roboto', sans-serif;
+  --fonte-Android: 'Android', cursive;
+}
+
+nav {
+  background-color: #2D3250;
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  align-items: center;
+  margin: 1rem 1rem;
+  border-radius: 10px;
+}
+
+nav>a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+nav>a:hover {
+  text-decoration: underline;
+  color: #171B33;
+
+}
+
+nav>a:active {
+  background-color: red;
+}

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+
+@font-face {
+  font-family: Android;
+  src: url('../font/IDroid.otf') format('opentype');
+  font-weight: normal;
+}
+
+:root {
+  --cor01: #99A1CF;
+  --cor02: #9496A5;
+  --cor03: #8E9FFA;
+  --cor04: #595E7A;
+  --cor05: #2D3250;
+  --cor06: #171B33;
+
+  --fonte-padrao: Arial, Verdana, Heveltica, sans-serif;
+  --fonte-destaque: 'Roboto', sans-serif;
+  --fonte-Android: 'Android', cursive;
+}
+
+
+main {
+  background-color: rgb(202, 198, 198);
+  display: flex;
+  margin: 1rem 1rem;
+}
+
+article>h1 {
+  color: #2D3250;
+  font-family: var(--fonte-Android);
+}
+
+article>h2 {
+  color: #2D3250;
+  font-family: var(--fonte-Android);
+}
+
+main>article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+article>h1 {
+  margin: 1rem 0rem 1rem 0rem;
+  text-align: center;
+}
+
+article>h2 {
+  margin: 1rem 0rem 1rem 0rem;
+  text-align: center;
+}
+
+article>p {
+  margin: 1rem 0rem 1rem 0rem;
+  text-align: center;
+  max-width: 100%;
+
+}
+
+aside>h3 {
+  text-align: center;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+aside>p {
+  text-align: center;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.two-columns-container {
+  display: flex;
+
+}
+
+.colum1 {
+  flex: 5;
+  list-style: none;
+}
+
+.colum2 {
+  flex: 1;
+  list-style: none;
+}
+
+.colum1 li {
+  
+  list-style: none;
+  margin-bottom: 1rem;
+  padding: 10px;
+  /* box-sizing: border-box; */
+}
+
+.colum2 li {
+  list-style: none;
+  margin-bottom: 1rem;
+  padding: 10px;
+  /* box-sizing: border-box; */
+}
+
